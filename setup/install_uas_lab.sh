@@ -21,6 +21,10 @@ git submodule update --init --recursive
 
 echo "Adding Aliases..."
 cat ~/uas-lab/setup/aliases.sh >> ~/.bashrc
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/.local/bin:$PATH"
+
 source ~/.bashrc
 
 echo "UAS Lab setup complete."
