@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-OUT_DIR = Path.home() / "uas_lab" / "reports"
+OUT_DIR = Path.home() / "uas-lab" / "reports"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 print("Connecting to MAVLink on udp:127.0.0.1:14551...")
