@@ -21,6 +21,8 @@ cd ~
 git clone https://github.com/ArduPilot/ardupilot.git
 cd ~/ardupilot
 git submodule update --init --recursive
+echo "Adding custom SITL locations..."
+echo'KLZU_RWY7=33.974438,-83.971235,324,64' >> ~/ardupilot/Tools/autotest/locations.txt
 
 echo "Adding Aliases..."
 cat ~/uas-lab/setup/aliases.sh >> ~/.bashrc
