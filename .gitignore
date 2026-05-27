@@ -1,9 +1,7 @@
-*.tlog
-*.Bin
-*.bin
-*.parm
-*.png
-*.csv
-*.log
 __pycache__/
+*.pyc
 reports/
+logs/
+*.BIN
+*.tlog
+
