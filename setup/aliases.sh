@@ -23,7 +23,7 @@ python3 ../Tools/autotest/sim_vehicle.py \
 alias flightlog="cd ~/uas-lab/scripts && python3 flight_log_summary.py"
 
 alias simplane_home='
-fgfs --native-fdm=socket,in,30,,5503,udp --fdm=external --aircraft=ufo --airport=TRIAL_FIELD >/dev/null 2>&1 &
+fgfs --native-fdm=socket,in,30,,5503,udp --fdm=external --aircraft=ufo --lat=33.968638 --lon=-84.415519 --altitude=1073 --heading=6 >/dev/null 2>&1 &
 
 sleep 10
 
