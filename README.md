@@ -8,7 +8,7 @@ ArduPilot + FlightGear + QGroundControl autonomous UAS development environment.
 - FlightGear visual simulation
 - QGroundControl integration
 - MAVLink telemetry tools
-- Flight log analysis
+- Post-flight log analysis
 - Custom launch locations
 - Dockerized Python tooling
 - Experimental camera control scripts
