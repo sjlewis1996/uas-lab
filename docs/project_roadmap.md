@@ -23,8 +23,10 @@
 - Companion computer support
 
 ## Future Hardware Goals
+- PixHawk 6C
+- M10 GPS
+- Airspeed Sensor
 - A8 Mini gimbal camera
-- Telemetry radios
-- FPV system
+- RFD900 Telemetry radio
 - Long-range autonomous operations
-
+- 20,000 mah battery
