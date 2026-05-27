@@ -2,7 +2,7 @@ echo "Updating system..."
 sudo apt update && sudo apt upgrade -y
 
 echo "Installing required packages..."
-sudo apt install git wget curl python3 python3-pip python3-venv python3-dev python3-matplotlib python3-pandas libopengl0 libgl1 libegl1 mesa-utils -y
+sudo apt install git wget curl python3 python3-pip python3-venv python3-dev python3-matplotlib python3-pandas libopengl0 libgl1 libegl1 mesa-utils flightgear -y
 
 echo "Removing ModemManager..."
 sudo apt remove modemmanager -y
@@ -23,6 +23,7 @@ cd ~/ardupilot
 git submodule update --init --recursive
 echo "Adding custom SITL locations..."
 echo ' KLZU_RWY7=33.974738,-83.970493,324,64' >> ~/ardupilot/Tools/autotest/locations.txt
+echo ' TRIAL_FIELD=33.968638,-84.415519,327,6' >> ~/ardupilot/Tools/autotest/locations.txt
 
 echo "Adding Aliases..."
 cat ~/uas-lab/setup/aliases.sh >> ~/.bashrc
