@@ -1,0 +1,9 @@
+services:
+  flightlog:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    network_mode: host
+    volumes:
+      - ../reports:/uas-lab/reports
+
