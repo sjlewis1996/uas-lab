@@ -45,6 +45,11 @@ source ~/.bashrc
 
 # Launch Commands
 
+## Start Full UAS LAB
+```bash
+uas-start
+```
+
 ## Standard Launch
 
 ```bash
