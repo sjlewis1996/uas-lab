@@ -99,6 +99,8 @@ python3 scripts/fg_camera_test.py
 
 # Docker
 
+-Docker is currently used only for running the Python Flightlog tool in a reproducible environment. It does not yet launch the full GUI simulation stack.
+
 ## Build
 
 ```bash
